@@ -47,3 +47,14 @@ var domString = "<h4>" + yarn + "</h4"
 
 var myDiv = document.getElementById("yarn-holder");
 myDiv.innerHTML = domString;
+
+// challange #5
+
+var str= "IBMWLOVEbmcatsbmw";
+var display= "<h2>" + str.replace(/bmw]/gi, "") + "</h2>";
+// if (str.toLowerCase().indexOf === [bmw]){
+//   str.replace(/"bmw"/g, "")
+// }
+
+var div = document.getElementById("holder");
+div.innerHTML = display; 
